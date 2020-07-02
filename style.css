@@ -1,0 +1,118 @@
+body{
+    position: relative;
+    top: 0px;
+    background-image: url("Images/Sky-unsplash.jpg");
+    height: 100vh;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navigationBar{
+    background: rgb(151, 165, 165);
+    height: 50px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    font-family:  Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid black;
+}
+.navigationBar a{
+    text-decoration: none;
+    color: rgb(5, 5, 36)
+}
+.navigationBar a:hover{
+    color: rgb(209, 209, 209)
+}
+.navigationBar a:active{
+    background-color: white;
+}
+
+.home{
+   flex: 1;
+   padding: 15px;
+   border-right: 1px solid black;
+}
+.bigEvents{
+    flex: 1;
+    padding: 15px;
+    border-right: 1px solid black;
+}
+
+.searchBar{
+    flex: 1;
+    background-color: white;
+}
+#searchBar{
+    padding: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+input{
+    border-width: 0px;
+}
+.saved{
+    flex: 1;
+    padding: 15px;
+    border-right: 1px solid black;
+}
+.mainBody{
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+.info{
+    display: block;
+    margin: 0 auto;
+}
+#weatherContainer{
+    background: rgba(0,0,0, 0.25);
+    box-shadow: 1px 1px 5px black;
+    padding: 50px;
+    padding-top: 10px;
+    border-radius: 10px;
+    position: absolute;
+    visibility: hidden;
+    top: 20%;
+    left: 30%;
+    border: 1px solid black;
+}
+#weatherContainer{
+    margin: 5px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',sans-serif
+}
+#weatherContainer p{
+    font-size: 35px;
+}
+
+.bottomDetails{
+    font-size: 20px;
+}
+#homeContainer{
+    background: rgba(0,0,0, 0.25);
+    height: fit-content;
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 34px;
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+#text{
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+#listOfCities li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 15px;
+}
